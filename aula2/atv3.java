@@ -5,12 +5,10 @@ public class Main{
     Scanner sc = new Scanner(System.in);
     int valor = sc.nextInt();
 
-      if (valor>0){
-        System.out.println("É da positivo");
-      } else if(valor<0){
-        System.out.println("É da negativo");
+      if (valor%2 == 0){
+        System.out.println("É da par");
       }else{
-        System.out.println("É 0");
+        System.out.println("É impar");
       }
   }
 }
